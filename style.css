@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+
+  #bk {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 185px;
+    z-index: -1;
+    animation: moveBackground 20s linear infinite;
+
+  }
+
+  @keyframes moveBackground {
+   
+    0% { background-position: 0 0; }
+    100% { background-position: -2000px 0; }
+  }
+
+  #dollarimg {
+    background-color: white;
+    width: 60%;
+    position: fixed;
+    top: 70px;
+    left: 985px;
+    z-index: -1;
+    animation: moveBackground 20s linear infinite;
+   
+  }
+
+  @keyframes moveBackground {
+   
+    0% { background-position: 0 0; }
+    100% { background-position: -2000px 0; }
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1{
+    color: #096db4;
+
+  }
+h1 span{
+  color: #4caf50;
+}  
+
+h2{
+  background-color: rgba(245, 245, 245, 0.406);
+  color: #096db4;
+}
+h3{
+  color: #4caf50;
+}
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="number"], input[type="text"], input[type="date"] {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 370px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-left: 380px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #096db4;
+  }
+  
+  #table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #table th, #table td {
+    background-color: #4caf50;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    color: white;
+  }
+  
+  #table th {
+
+   background-color: #4caf50;
+  }
+  
+  #remaining-budget {
+    text-align: center;
+    margin-top: 20px;
+    background-color: whitesmoke;
+  }
+  
+  #remaining-budget-value {
+    color: #4caf50;
+    font-weight: bold;
+    font-size: 24px;
+
+  }
+
